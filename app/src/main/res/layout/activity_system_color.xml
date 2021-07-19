@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SystemColorActivity">
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/colorRv"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:targetApi="31">
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_0"
+                app:customcard_text="System Accent1 0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_10"
+                app:customcard_text="System Accent1 10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_50"
+                app:customcard_text="System Accent1 50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_100"
+                app:customcard_text="System Accent1 100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_200"
+                app:customcard_text="System Accent1 200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_300"
+                app:customcard_text="System Accent1 300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_400"
+                app:customcard_text="System Accent1 400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_500"
+                app:customcard_text="System Accent1 500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_600"
+                app:customcard_text="System Accent1 600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_700"
+                app:customcard_text="System Accent1 700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_800"
+                app:customcard_text="System Accent1 800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_900"
+                app:customcard_text="System Accent1 900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent1_1000"
+                app:customcard_text="System Accent1 1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <View
+                android:background="?colorOnBackground"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="5dp" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_0"
+                app:customcard_text="System Accent2 0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_10"
+                app:customcard_text="System Accent2 10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_50"
+                app:customcard_text="System Accent2 50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_100"
+                app:customcard_text="System Accent2 100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_200"
+                app:customcard_text="System Accent2 200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_300"
+                app:customcard_text="System Accent2 300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_400"
+                app:customcard_text="System Accent2 400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_500"
+                app:customcard_text="System Accent2 500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_600"
+                app:customcard_text="System Accent2 600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_700"
+                app:customcard_text="System Accent2 700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_800"
+                app:customcard_text="System Accent2 800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_900"
+                app:customcard_text="System Accent2 900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent2_1000"
+                app:customcard_text="System Accent2 1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:background="?colorOnBackground"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="5dp" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_0"
+                app:customcard_text="System Accent3 0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_10"
+                app:customcard_text="System Accent3 10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_50"
+                app:customcard_text="System Accent3 50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_100"
+                app:customcard_text="System Accent3 100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_200"
+                app:customcard_text="System Accent3 200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_300"
+                app:customcard_text="System Accent3 300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_400"
+                app:customcard_text="System Accent3 400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_500"
+                app:customcard_text="System Accent3 500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_600"
+                app:customcard_text="System Accent3 600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_700"
+                app:customcard_text="System Accent3 700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_800"
+                app:customcard_text="System Accent3 800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_900"
+                app:customcard_text="System Accent3 900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_accent3_1000"
+                app:customcard_text="System Accent3 1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:background="?colorOnBackground"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="5dp" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_0"
+                app:customcard_text="System Neutral1 0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_10"
+                app:customcard_text="System Neutral1 10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_50"
+                app:customcard_text="System Neutral1 50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_100"
+                app:customcard_text="System Neutral1 100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_200"
+                app:customcard_text="System Neutral1 200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_300"
+                app:customcard_text="System Neutral1 300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_400"
+                app:customcard_text="System Neutral1 400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_500"
+                app:customcard_text="System Neutral1 500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_600"
+                app:customcard_text="System Neutral1 600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_700"
+                app:customcard_text="System Neutral1 700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_800"
+                app:customcard_text="System Neutral1 800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_900"
+                app:customcard_text="System Neutral1 900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral1_1000"
+                app:customcard_text="System Neutral1 1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:background="?colorOnBackground"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="5dp" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_0"
+                app:customcard_text="System Neutral2 0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_10"
+                app:customcard_text="System Neutral2 10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_50"
+                app:customcard_text="System Neutral2 50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_100"
+                app:customcard_text="System Neutral2 100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_200"
+                app:customcard_text="System Neutral2 200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_300"
+                app:customcard_text="System Neutral2 300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_400"
+                app:customcard_text="System Neutral2 400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_500"
+                app:customcard_text="System Neutral2 500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_600"
+                app:customcard_text="System Neutral2 600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_700"
+                app:customcard_text="System Neutral2 700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_800"
+                app:customcard_text="System Neutral2 800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_900"
+                app:customcard_text="System Neutral2 900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.programmersbox.quiz.CustomCard
+                app:customcard_cardBackgroundColor="@android:color/system_neutral2_1000"
+                app:customcard_text="System Neutral2 1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
